@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GravitySmartStayWeb\\smart-stay-haven\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\config\\navigationConfig.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\config\\navigationConfig.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\context\\NavigationContext.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\context\\NavigationContext.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\i18n\\locales\\en.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\i18n\\locales\\en.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\pages\\CashierBalances.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\CashierBalances.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\components\\dashboard\\RoomCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\dashboard\\RoomCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\pages\\Rooms.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Rooms.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\components\\dashboard\\FloorSection.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\dashboard\\FloorSection.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavigationContext.tsx",
+              "DocumentMoniker": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\context\\NavigationContext.tsx",
+              "RelativeDocumentMoniker": "src\\context\\NavigationContext.tsx",
+              "ToolTip": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\context\\NavigationContext.tsx",
+              "RelativeToolTip": "src\\context\\NavigationContext.tsx",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-05-10T15:52:46.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.tsx",
+              "DocumentMoniker": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\main.tsx",
+              "RelativeDocumentMoniker": "src\\main.tsx",
+              "ToolTip": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\main.tsx",
+              "RelativeToolTip": "src\\main.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-05-10T15:52:31.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "navigationConfig.tsx",
+              "DocumentMoniker": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\config\\navigationConfig.tsx",
+              "RelativeDocumentMoniker": "src\\config\\navigationConfig.tsx",
+              "ToolTip": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\config\\navigationConfig.tsx",
+              "RelativeToolTip": "src\\config\\navigationConfig.tsx",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAALYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-05-10T15:49:54.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "en.ts",
+              "DocumentMoniker": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\i18n\\locales\\en.ts",
+              "RelativeDocumentMoniker": "src\\i18n\\locales\\en.ts",
+              "ToolTip": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\i18n\\locales\\en.ts",
+              "RelativeToolTip": "src\\i18n\\locales\\en.ts",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAKgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-05-10T15:49:48.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CashierBalances.tsx",
+              "DocumentMoniker": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\pages\\CashierBalances.tsx",
+              "RelativeDocumentMoniker": "src\\pages\\CashierBalances.tsx",
+              "ToolTip": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\pages\\CashierBalances.tsx",
+              "RelativeToolTip": "src\\pages\\CashierBalances.tsx",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-05-10T15:49:04.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rooms.tsx",
+              "DocumentMoniker": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\pages\\Rooms.tsx",
+              "RelativeDocumentMoniker": "src\\pages\\Rooms.tsx",
+              "ToolTip": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\pages\\Rooms.tsx",
+              "RelativeToolTip": "src\\pages\\Rooms.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-05-10T13:51:02.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FloorSection.tsx",
+              "DocumentMoniker": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\components\\dashboard\\FloorSection.tsx",
+              "RelativeDocumentMoniker": "src\\components\\dashboard\\FloorSection.tsx",
+              "ToolTip": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\components\\dashboard\\FloorSection.tsx",
+              "RelativeToolTip": "src\\components\\dashboard\\FloorSection.tsx",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-05-10T13:48:35.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoomCard.tsx",
+              "DocumentMoniker": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\components\\dashboard\\RoomCard.tsx",
+              "RelativeDocumentMoniker": "src\\components\\dashboard\\RoomCard.tsx",
+              "ToolTip": "D:\\GravitySmartStayWeb\\smart-stay-haven\\src\\components\\dashboard\\RoomCard.tsx",
+              "RelativeToolTip": "src\\components\\dashboard\\RoomCard.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-05-10T13:44:24.885Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

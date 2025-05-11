@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "aMmemBjB7rhKGA9LHtwOcbxLIgubl1w8/EKFrOCA3eA=",
+  "Source": "SmartStayHaven.API",
+  "BasePath": "_content/SmartStayHaven.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

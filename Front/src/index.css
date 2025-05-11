@@ -1,0 +1,150 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 195 100% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 196 100% 48%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 196 100% 48%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 196 100% 48%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 222 24% 14%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 196 100% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 223 23% 22%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 223 23% 22%;
+    --sidebar-ring: 196 100% 45%;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 196 100% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 217 33% 18%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 33% 18%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 217 33% 18%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 33% 18%;
+    --input: 217 33% 18%;
+    --ring: 213 27% 84%;
+    
+    --sidebar-background: 223 24% 10%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 196 100% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 223 24% 18%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 223 24% 18%;
+    --sidebar-ring: 196 100% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground transition-colors;
+  }
+
+  /* RTL Support */
+  html[dir="rtl"] .sidebar-menu button svg,
+  html[dir="rtl"] .rtl-flip {
+    transform: scaleX(-1);
+  }
+
+  html[dir="rtl"] .ltr-only {
+    display: none;
+  }
+
+  html[dir="ltr"] .rtl-only {
+    display: none;
+  }
+}
+
+@layer components {
+  .status-badge {
+    @apply px-2 py-1 rounded-full text-xs font-medium inline-flex items-center gap-1.5;
+  }
+  
+  .status-badge-vacant {
+    @apply bg-status-vacant/20 text-status-vacant;
+  }
+  
+  .status-badge-occupied {
+    @apply bg-status-occupied/20 text-status-occupied;
+  }
+  
+  .status-badge-reserved {
+    @apply bg-status-reserved/20 text-status-reserved;
+  }
+  
+  .status-badge-maintenance {
+    @apply bg-status-maintenance/20 text-status-maintenance;
+  }
+  
+  .status-badge-cleaning {
+    @apply bg-status-cleaning/20 text-status-cleaning;
+  }
+  
+  .status-badge-checkout {
+    @apply bg-status-checkout/20 text-status-checkout;
+  }
+
+  /* Logo styles */
+  .app-logo {
+    @apply h-8 w-auto transition-transform hover:scale-105;
+  }
+}
+
+/* Utility classes for rtl support */
+.rtl-reverse {
+  @apply [direction:rtl];
+}

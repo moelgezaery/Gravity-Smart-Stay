@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gravity Smart Stay</title>
+    <meta name="description" content="Hotel Management System" />
+    <meta name="author" content="Gravity Smart Stay" />
+    <link rel="icon" href="/lovable-uploads/d8664fc3-262a-4828-a474-946392a103c5.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/lovable-uploads/d8664fc3-262a-4828-a474-946392a103c5.png" />
+
+    <meta property="og:title" content="Gravity Smart Stay" />
+    <meta property="og:description" content="Hotel Management System" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/lovable-uploads/d8664fc3-262a-4828-a474-946392a103c5.png" />
+
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, (err) => {
+              console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>
