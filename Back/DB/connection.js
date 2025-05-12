@@ -33,17 +33,10 @@ const masterDBConfig = {
     database: process.env.MASTER_DB_NAME,
 };
 
-// Itisal DB configuration
-const itisalDBConfig = {
-    ...baseDBConfig,
-    database: process.env.ITISAL_DB_NAME,
-};
 
 // Master DB connection pool
 const masterDB = new sql.ConnectionPool(masterDBConfig);
 
-// Itisal DB connection pool
-const itisalDB = new sql.ConnectionPool(itisalDBConfig);
 
 // Connect with retry logic
 const connectWithRetry = async (pool, dbName, retries = MAX_RETRIES) => {
@@ -64,46 +57,11 @@ const connectWithRetry = async (pool, dbName, retries = MAX_RETRIES) => {
 
 // Connect to master DB
 const connectToMasterDB = async () => {
-    return connectWithRetry(masterDB, 'Master');
-};
-
-// Connect to Itisal DB
-const connectToItisalDB = async () => {
-    return connectWithRetry(itisalDB, 'ITISAL');
-};
-
-// Function to connect to any other database dynamically
-const connectToDatabase = async (databaseName) => {
-    const customDBConfig = { ...baseDBConfig, database: databaseName };
-    const dbConnection = new sql.ConnectionPool(customDBConfig);
-    return connectWithRetry(dbConnection, databaseName);
-};
-
-// Function to create a client-specific database connection
-const createClientConnection = async (connInfo) => {
-    const clientDBConfig = {
-        user: connInfo.SQL_USER,
-        password: connInfo.SQL_USR_PASS,
-        server: connInfo.SQL_SRV_IP.trim(),
-        database: connInfo.SQL_DB_NAME,
-        options: {
-            encrypt: false,
-            trustServerCertificate: true,
-            enableArithAbort: true,
-            connectTimeout: 30000,
-        }
-    };
-
-    const clientDB = new sql.ConnectionPool(clientDBConfig);
-    return connectWithRetry(clientDB, connInfo.SQL_DB_NAME);
+    return connectWithRetry(masterDB, 'GravitySmartStay');
 };
 
 // Export all the connection functions and pools
 export {
     masterDB,
-    itisalDB,
-    connectToMasterDB,
-    connectToItisalDB,
-    connectToDatabase,
-    createClientConnection
+    connectToMasterDB
 };

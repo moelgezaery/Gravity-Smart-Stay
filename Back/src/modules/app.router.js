@@ -3,15 +3,14 @@ import { glopalErrHandling } from "../utils/errorHandling.js";
 import { AppError } from "../utils/appError.js";
 import queryRouter from './query/query.router.js'
 import healthRouter from './health/health.router.js'
-
+import authRouter from './auth/auth.router.js'
 const initApp = (app, express) => {
   // Built-in Middleware
   app.use(express.json());
   app.use(cookieParser());
 
-  // Custom Middlewares
-
   // Routes
+  app.use("/auth", authRouter);
   app.use("/api/query", queryRouter);
   app.use("/api/health", healthRouter);
 
