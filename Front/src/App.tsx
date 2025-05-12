@@ -24,7 +24,7 @@ import Login from "./pages/Login";
 import Reservations from "./pages/Reservations";
 import CloseDay from "./pages/CloseDay";
 
-// New reservation snapshot pages
+// New Front Office / Reception pages
 import ArrivalsToday from "./pages/ArrivalsToday";
 import DeparturesToday from "./pages/DeparturesToday";
 import NewBookings from "./pages/NewBookings";
@@ -73,7 +73,7 @@ const App = () => (
           <Route path="/login" element={<Login />} />
           <Route path="/" element={<Index />} />
           
-          {/* Reservation Snapshot */}
+          {/* Front Office / Reception */}
           <Route path="/reservations" element={<Reservations />} />
           <Route path="/arrivals" element={<ArrivalsToday />} />
           <Route path="/departures" element={<DeparturesToday />} />

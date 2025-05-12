@@ -15,9 +15,9 @@ const PermissionDemo = () => {
   );
   
   const allPermissions: { label: string; value: NavigationPermission }[] = [
-    { label: "Reservation Snapshot", value: "reservation_snapshot" },
+    { label: "Front Office / Reception", value: "front_Office" },
     { label: "Room Status & Housekeeping", value: "room_status" },
-    { label: "Front Desk Workflow", value: "front_desk" },
+    { label: "  Guest Services & Concierge", value: "guest_Concierge" },
     { label: "Financial Overview", value: "financial" },
     { label: "Analytics & Reports", value: "analytics" },
     { label: "System Configuration", value: "system_config" }

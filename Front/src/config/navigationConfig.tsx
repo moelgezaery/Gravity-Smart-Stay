@@ -26,9 +26,9 @@ import {
 } from "lucide-react";
 
 export type NavigationPermission = 
-  | "reservation_snapshot"
+  | "front_Office"
   | "room_status"
-  | "front_desk"
+  | "guest_Concierge"
   | "financial"
   | "analytics"
   | "system_config";
@@ -48,50 +48,71 @@ export const navigationConfig: NavigationItem[] = [
     label: "home",
     icon: Home,
     path: "/",
-    permission: "reservation_snapshot", // Default dashboard shows reservation data
+    permission: "front_Office", // Default dashboard shows reservation data
   },
   
-  // 1. Reservation Snapshot
+  // 1. Front Office / Reception
   {
-    key: "reservation_snapshot",
-    label: "reservationSnapshot",
+    key: "front_Office",
+    label: "frontOffice",
     icon: CalendarRange,
-    permission: "reservation_snapshot",
+    permission: "front_Office",
     children: [
       {
         key: "reservations",
         label: "reservations",
         icon: BookOpen,
         path: "/reservations",
-        permission: "reservation_snapshot",
+        permission: "front_Office",
+      }  
+      ,{
+        key: "checkin",
+        label: "checkIn",
+        icon: LogIn,
+        path: "/checkin",
+        permission: "guest_Concierge",
+      },
+      {
+        key: "checkout",
+        label: "checkOut",
+        icon: LogOut,
+        path: "/checkout",
+        permission: "guest_Concierge",
+      },
+      {
+        key: "guests",
+        label: "guests",
+        icon: Users,
+        path: "/guests",
+        permission: "guest_Concierge",
       },
       {
         key: "arrivals",
         label: "arrivalsToday",
         icon: UserCheck,
         path: "/arrivals",
-        permission: "reservation_snapshot",
+        permission: "front_Office",
       },
       {
         key: "departures",
         label: "departuresToday",
         icon: UserX,
         path: "/departures",
-        permission: "reservation_snapshot",
+        permission: "front_Office",
       },
       {
         key: "new_bookings",
         label: "newBookings",
         icon: BookOpen,
         path: "/new-bookings",
-        permission: "reservation_snapshot",
+        permission: "front_Office",
       },
       {
         key: "no_shows",
         label: "noShowsCancellations",
         icon: UserX,
         path: "/no-shows",
-        permission: "reservation_snapshot",
+        permission: "front_Office",
       }
     ]
   },
@@ -122,46 +143,27 @@ export const navigationConfig: NavigationItem[] = [
   
   // 3. Front-Desk Workflow
   {
-    key: "front_desk",
-    label: "frontDeskWorkflow",
+    key: "guest_Concierge",
+    label: " guestConciergeWorkflow",
     icon: Bell,
-    permission: "front_desk",
+    permission: "guest_Concierge",
     children: [
-      {
-        key: "checkin",
-        label: "checkIn",
-        icon: LogIn,
-        path: "/checkin",
-        permission: "front_desk",
-      },
-      {
-        key: "checkout",
-        label: "checkOut",
-        icon: LogOut,
-        path: "/checkout",
-        permission: "front_desk",
-      },
-      {
-        key: "guests",
-        label: "guests",
-        icon: Users,
-        path: "/guests",
-        permission: "front_desk",
-      },
+ 
       {
         key: "guest_requests",
         label: "guestRequests",
         icon: Bell,
         path: "/guest-requests",
-        permission: "front_desk",
-      },
-      {
-        key: "late_arrivals",
-        label: "lateArrivals",
-        icon: AlarmClock,
-        path: "/late-arrivals",
-        permission: "front_desk",
+        permission: "guest_Concierge",
       }
+      // ,
+      // {
+      //   key: "late_arrivals",
+      //   label: "lateArrivals",
+      //   icon: AlarmClock,
+      //   path: "/late-arrivals",
+      //   permission: "guest_Concierge",
+      // }
     ]
   },
   

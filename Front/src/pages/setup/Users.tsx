@@ -81,9 +81,9 @@ const roles = [
     description: "Full access to all system features and settings",
     users: 1,
     permissions: [
-      "reservation_snapshot",
+      "front_Office",
       "room_status",
-      "front_desk",
+      "guest_Concierge",
       "financial",
       "analytics",
       "system_config"
@@ -95,9 +95,9 @@ const roles = [
     description: "Access to most system features except critical settings",
     users: 2,
     permissions: [
-      "reservation_snapshot",
+      "front_Office",
       "room_status",
-      "front_desk",
+      "guest_Concierge",
       "financial",
       "analytics"
     ]
@@ -108,9 +108,9 @@ const roles = [
     description: "Access to front desk operations, check-ins, check-outs, and guest information",
     users: 5,
     permissions: [
-      "reservation_snapshot",
+      "front_Office",
       "room_status",
-      "front_desk"
+      "guest_Concierge"
     ]
   },
   {
@@ -127,30 +127,14 @@ const roles = [
 // Updated permissions categories to match navigation structure
 const permissionCategories = [
   {
-    name: "Reservation Snapshot",
-    key: "reservation_snapshot",
+    name: "Front Office / Reception",
+    key: "front_Office",
     permissions: [
       { id: "view_reservations", name: "View Reservations" },
       { id: "manage_reservations", name: "Manage Reservations" },
       { id: "view_arrivals", name: "View Arrivals" },
       { id: "view_departures", name: "View Departures" },
-      { id: "view_cancellations", name: "View Cancellations" }
-    ]
-  },
-  {
-    name: "Room Status & Housekeeping",
-    key: "room_status",
-    permissions: [
-      { id: "view_rooms", name: "View Rooms" },
-      { id: "manage_rooms", name: "Manage Rooms" },
-      { id: "manage_housekeeping", name: "Manage Housekeeping" },
-      { id: "update_room_status", name: "Update Room Status" }
-    ]
-  },
-  {
-    name: "Front Desk Workflow",
-    key: "front_desk",
-    permissions: [
+      { id: "view_cancellations", name: "View Cancellations" },
       { id: "check_in_guests", name: "Check-in Guests" },
       { id: "check_out_guests", name: "Check-out Guests" },
       { id: "manage_guest_requests", name: "Manage Guest Requests" },
@@ -159,12 +143,29 @@ const permissionCategories = [
     ]
   },
   {
+    name: "Room Status & Housekeeping",
+    key: "room_status",
+    permissions: [
+      { id: "view_rooms", name: "View Rooms" },
+      { id: "manage_housekeeping", name: "Manage Housekeeping" },
+      { id: "update_room_status", name: "Update Room Status" }
+    ]
+  },
+  {
+    name: "  Guest Services & Concierge",
+    key: "guest_Concierge",
+    permissions: [
+      { id: "manage_guest_requests", name: "Manage Guest Requests" },
+     
+    ]
+  },
+  {
     name: "Financial Overview",
     key: "financial",
     permissions: [
       { id: "process_payments", name: "Process Payments" },
       { id: "manage_invoices", name: "Manage Invoices" },
-      { id: "void_payments", name: "Void Payments" },
+      { id: "add_charges", name: "Add Charges" },
       { id: "view_financial_reports", name: "View Financial Reports" },
       { id: "close_day", name: "Close Day" }
     ]

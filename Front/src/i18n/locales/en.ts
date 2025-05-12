@@ -153,7 +153,7 @@ export default {
   featureAvailable: "This {feature} will be available soon",
   
   // New Navigation Categories
-  reservationSnapshot: "Reservation Snapshot",
+  frontOffice: "Front Office / Reception",
   arrivalsToday: "Arrivals Today",
   departuresToday: "Departures Today",
   newBookings: "New Bookings",
@@ -161,7 +161,7 @@ export default {
   
   roomStatusHousekeeping: "Room Status & Housekeeping",
   
-  frontDeskWorkflow: "Front Desk Workflow",
+   guestConciergeWorkflow: "  Guest Services & Concierge",
   guestRequests: "Guest Requests",
   lateArrivals: "Late Arrivals",
   
@@ -174,9 +174,9 @@ export default {
   
   // Permission categories
   permissionCategories: {
-    reservationSnapshot: "Reservation Snapshot",
+    frontOffice: "Front Office / Reception",
     roomStatus: "Room Status & Housekeeping",
-    frontDesk: "Front Desk Workflow",
+     guestConcierge: "  Guest Services & Concierge",
     financial: "Financial Overview",
     analytics: "Analytics & Reports", 
     systemConfig: "System Configuration"

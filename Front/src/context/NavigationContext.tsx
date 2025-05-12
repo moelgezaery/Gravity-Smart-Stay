@@ -14,9 +14,9 @@ export function NavigationProvider({ children }: { children: React.ReactNode }) 
   // In a real application, these permissions would come from your authentication system
   // For now, we'll just use a state that can be updated for testing
   const [userPermissions, setUserPermissions] = useState<NavigationPermission[]>([
-    "reservation_snapshot", 
+    "front_Office", 
     "room_status", 
-    "front_desk", 
+    "guest_Concierge", 
     "financial", 
     "analytics", 
     "system_config"
